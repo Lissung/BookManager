@@ -3,13 +3,15 @@ public class Main {
     private static System system;
 
     public static void main(String[] args) {
-        int i=0;
-        int j=5;
-            if(i=0; i<6  ; i++){
-             if(j=5;j<6 ; i--){
-                system.out.print("*");
-            }
-             else break;
-        } else break;
+        int i, j, k=0;
+            for (i=0;  i < 6  ; i++){
+             for (j=5; i<j ; j--) {
+                 System.out.print(" ");
+             }
+             for (k=0; k<=2*i; k++){
+                 system.out.print("*");
+             }
+              system.out.println("");
+        }
     }
 }
